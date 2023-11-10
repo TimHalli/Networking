@@ -15,7 +15,7 @@ struct User: Decodable {
     let dateOfBirth: String
     let employment: Employment
     let address: Address
-    let creditCard: CreditCard
+    let creditCard: CreditCard//
     let subscription: Subscription
     
     private enum CodingKeys: String, CodingKey {
